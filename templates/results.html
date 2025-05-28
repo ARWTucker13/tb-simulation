@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simulation Results</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>🎉 Simulation Complete!</h2>
+
+    <h3>🏛️ Your Leadership Archetype: {{ profile.name }}</h3>
+    <p>{{ profile.description }}</p>
+
+    <h4>🎓 Aligned Course Learning Objectives</h4>
+    <ul>
+      {% for obj in profile.learning_objectives %}
+        <li>{{ obj }}</li>
+      {% endfor %}
+    </ul>
+
+    <h4>📊 Your Full Archetype Score Profile</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Archetype</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for key, value in scores.items() %}
+          <tr>
+            <td>{{ key.replace('_', ' ').title() }}</td>
+            <td>{{ value }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+      

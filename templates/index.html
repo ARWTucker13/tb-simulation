@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TB in the Mining Sector Simulation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🦠 TB in the Mining Sector: Regional Simulation</h1>
+
+    <img src="{{ url_for('static', filename='images/780x439-mineworkers.jpg') }}" style="width:100%; max-width:780px;" alt="Mineworkers">
+
+    <p>
+      Welcome to the <strong>TB in the Mining Sector Simulation</strong>. This simulation is based on a real-world case study of regional efforts to control tuberculosis (TB) in Southern Africa’s mining communities.
+    </p>
+
+    <p>
+      You will take on the role of a public health advisor guiding strategic decisions. No prior background is required.
+    </p>
+
+    <p>
+      📄 <a href="{{ url_for('static', filename='Deep_Research_Case_Study.pdf') }}" target="_blank">Download the Full Case Study (PDF)</a>
+    </p>
+
+    <form action="{{ url_for('scene', scene_id=0) }}">
+      <button type="submit">Start Simulation</button>
+    </form>
+  </div>
+</body>
+</html>

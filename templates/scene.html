@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ scene.title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Scene {{ scene_id + 1 }}: {{ scene.title }}</h2>
+
+    <div class="narrative">
+      <p>{{ scene.narrative | safe }}</p>
+    </div>
+
+    <form method="POST">
+      {% for choice in scene.choices %}
+        <div class="choice">
+          <input type="radio" id="{{ choice.letter }}" name="choice" value="{{ choice.letter }}" required>
+          <label for="{{ choice.letter }}"><strong>{{ choice.letter }}.</strong> {{ choice.description }}</label>
+        </div>
+      {% endfor %}
+
+      <button type="submit">Submit Choice</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,259 @@
+[
+  {
+    "scene_id": "scene_1",
+    "title": "The Applause Fades",
+    "narrative": "Johannesburg, South Africa \u2013 World TB Day, March 2024\n\nYou\u2019ve just presented the final report of the TIMS initiative to applause. The crowd is still clapping as you step off the stage. Behind you, a banner reads:\n\n“TIMS 2012–2024: A Decade of Progress in the Fight Against TB in the Mining Sector”\n\nYou’ve just presented the final report of the TIMS initiative — a $30 million regional effort launched by the Southern African Development Community (SADC) and supported by the Global Fund and World Bank. Mobile clinics, cross-border treatment protocols, and regional data harmonization helped screen over 500,000 miners and ex-miners across 10 countries.\n\nBut now the cameras are gone, and the real work begins.\n\nYou walk into a side room where SADC health ministers and regional planners are gathered. There’s no applause here — just urgent questions. With donor funding phasing out, the Ministers are looking to you for a way forward.\n\nSomeone from Malawi leans over and whispers:\n\n“We’ve shown we can reach the miners. But can we sustain it without Geneva?”\n\nAnother, from Lesotho, adds:\n\n“We had 40% of our TB cases linked to mining. We can’t go back to that.”\n\nYou must advise them: What guiding principle should shape the region’s post-TIMS strategy?"
+,
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Emphasize domestic country ownership of the TB programs and financial protection for miners and ex-miners. Advocate for sustainability over time.",
+        "archetype": "systems_architect",
+        "points": 10
+      },
+      {
+        "letter": "B",
+        "description": "Emphasize the need for harmonized cross-border TB referral systems and regional coordination.",
+        "archetype": "diplomatic_strategist",
+        "points": 10
+      },
+      {
+        "letter": "C",
+        "description": "Center justice and inclusion of marginalized mining populations. Particularly those at artisinal and small mining (ASM) operations.",
+        "archetype": "equity_negotiator",
+        "points": 10
+      },
+      {
+        "letter": "D",
+        "description": "Frame it as a regional success story to build political momentum and re-engage donors and NGOs.",
+        "archetype": "public_health_communicator",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_2",
+    "title": "Roots of the Epidemic",
+    "narrative": "Gaborone, Botswana \u2013 2012\n\nIn a strategic planning retreat, regional leaders begin drafting the SADC TB-in-Mining Declaration. The room is hot and windowless. Around the table sit public health directors, mine safety regulators, and regional epidemiologists — most of whom haven’t worked together before.\n\nYou’re here at the start of something new: the SADC is drafting its first regional health declaration focused specifically on TB in the mining sector. The crisis has reached a tipping point.\n\nTB rates among mineworkers are as high as 2,500 per 100,000 — more than ten times the general population. HIV co-infection is common. In South Africa alone, over 500,000 ex-mineworkers are living with lung damage, and tens of thousands are still migrating for work each year from Lesotho, Mozambique, Malawi, and beyond.\n\nOne delegate from Eswatini opens the meeting bluntly:\n\n“We keep calling this a disease of the lungs. But it’s the structure that’s diseased.”\n\nYou know what they mean:\n\n- Decades of migrant labor systems, created under apartheid and perpetuated through neoliberal mining policy\n- Cramped hostels and dusty tunnels where mineworkers spend 40+ hours a week\n- No cross-border health coverage. No worker compensation. No care once they're sent home.\n\nSome in the room want to focus on case detection and drug resistance. Others want to put forward a broader, structural agenda. It’s your turn to speak."
+,
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Frame TB as a result of exploitation of laborers and structural violence against marginalized populations.",
+        "archetype": "equity_negotiator",
+        "points": 5
+      },
+      {
+        "letter": "B",
+        "description": "Highlight HIV co-infection, silica exposure, and poor diagnostic systems.",
+        "archetype": "evidence_based_strategist",
+        "points": 5
+      },
+      {
+        "letter": "C",
+        "description": "Emphasize legal/policy gaps in care for cross-border and migrant workers.",
+        "archetype": "diplomatic_strategist",
+        "points": 5
+      },
+      {
+        "letter": "D",
+        "description": "Present an integrated narrative combining all drivers.",
+        "archetype": "systems_architect",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_3",
+    "title": "Maputo 2012 \u2013 Declaration Signing",
+    "narrative": "Maputo, Mozambique \u2013 August 2012\n\nHealth ministers prepare to sign a regional TB declaration. You’re standing in a drafty ballroom of a Maputo conference center. After two days of negotiation, 15 health ministers from across the Southern African Development Community (SADC) are poised to sign what will become the SADC Declaration on TB in the Mining Sector.\n\nThe declaration is historic — the first time TB in mining has been recognized as a regional health and labor issue. But the language is still vague, and there’s disagreement over what exactly to include.\n\nThe working group has drafted four core policy pillars:\n\n**Treatment and Referral**\nEnsure universal access to TB and HIV screening and treatment for all miners — active or retired.\n\n**Cross-Border Surveillance and Harmonization**\nCreate standardized data systems, referral pathways, and treatment protocols that follow miners across borders.\n\n**Dust Control and Occupational Safety**\nEnforce silica dust reduction and issue formal respiratory health protections within the mines.\n\n**Inclusion of Informal and Ex-Miners**\nExpand care to include artisanal miners and ex-mineworkers who often fall through the cracks of formal systems.\n\nBehind closed doors, the priorities differ. South Africa wants a harmonized system. Mozambique pushes for better surveillance. Malawi demands justice for ex-mineworkers. Mining companies are watching closely — worried about liability.\n\nThe Ministers turn to you, as the lead technical advisor from the Global TB Programme.\n\n“We need you to recommend which pillars we prioritize. We can’t push all four equally — not if we want buy-in.”"
+,
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Focus on treatment and cross-border continuity of care.",
+        "archetype": "diplomatic_strategist",
+        "points": 10
+      },
+      {
+        "letter": "B",
+        "description": "Center treatment and inclusion of informal miners and sex workers in mining communities in formal treatment programs.",
+        "archetype": "equity_negotiator",
+        "points": 10
+      },
+      {
+        "letter": "C",
+        "description": "Prioritize surveillance and dust control for measurable results.",
+        "archetype": "evidence_based_strategist",
+        "points": 10
+      },
+      {
+        "letter": "D",
+        "description": "Push all four pillars in an integrated systems package.",
+        "archetype": "systems_architect",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_4",
+    "title": "Mobile Clinics Deployed",
+    "narrative": "Harare, Zimbabwe \u2013 October 2013\n\nYou have 12 mobile clinics to distribute across 10 countries. Debates arise: go where burden is highest, focus on underserved communities, prioritize infrastructure, or make it politically visible? You’re seated at a long fold-out table in a temporary coordination hub — a repurposed municipal health office in Harare. Colored maps cover every wall: prevalence overlays, mine shaft density maps, HIV co-infection heat zones, and notes scrawled in marker.\n\nThis is the operational heart of TIMS Phase I. Ten SADC countries. Dozens of mining districts. Hundreds of thousands of miners. And just 12 mobile TB clinics to start.\n\n“We need to deploy fast,” says the regional coordinator from the SADC Secretariat.\n“But where we send these vans will shape how people perceive this entire initiative.”\n\nThere’s disagreement in the room:\n\nSouth Africa’s data analysts argue for high-incidence districts — especially in Free State and Mpumalanga.\nLesotho’s delegation advocates for equity-based targeting:",
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Target high-burden districts using epidemiologic data.",
+        "archetype": "evidence_based_strategist",
+        "points": 5
+      },
+      {
+        "letter": "B",
+        "description": "Focus on historically excluded or rural ex-miners.",
+        "archetype": "equity_negotiator",
+        "points": 5
+      },
+      {
+        "letter": "C",
+        "description": "Pilot in high-capacity countries for reliable rollout.",
+        "archetype": "systems_architect",
+        "points": 5
+      },
+      {
+        "letter": "D",
+        "description": "Spread clinics evenly to maintain regional buy-in.",
+        "archetype": "diplomatic_strategist",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_5",
+    "title": "Lives Behind the Numbers",
+    "narrative": "Zululand, South Africa \u2013 February 2015\n\n You’re seated under a temporary tent beside a rural clinic in KwaZulu-Natal. It’s humid and buzzing with flies. Around you sit a dozen ex-mineworkers, NGO staff, and a few weary nurses. This is one of TIMS’s new “One Stop Service” pilot sites — designed to bring TB testing, HIV treatment, compensation screening, and legal aid together in one visit.\n\nBut today isn’t about testing. It’s about listening.\n\nEach stakeholder who stands to speak has a different story:\n- A man who spent 19 years underground and hasn’t drawn a full breath since 2008.\n- A widow whose husband died mid-treatment after being deported from a hospital in Gauteng.\n- A nurse who processes hundreds of sputum samples per week with no lab technician, no fridge, and no car.\n\nOne older miner stands up, his voice hoarse from chronic cough:\n\n“We are like bubblegum,” he says.\n“Used and thrown away.”\n\nYou’re compiling your report for the SADC Ministers next month. They’ve asked for a short policy brief that includes a personal quote or story to humanize the report and provide qualitative evidence. What narrative will you highlight?",
+    "choices": [
+      {
+        "letter": "A",
+        "description": "'We are like bubblegum. Used and thrown away.' Highlight the long arc of labor exploitation, abandonment, and political invisibility.",
+        "archetype": "equity_negotiator",
+        "points": 5
+      },
+      {
+        "letter": "B",
+        "description": "'They came with the van and tested us right outside the soccer pitch. That’s how I found out.' Focus on the role of mobile outreach and success stories from early TIMS clinics and their role in the system.",
+        "archetype": "systems_architect",
+        "points": 5
+      },
+      {
+        "letter": "C",
+        "description": "'I got sick in South Africa, but when I lost my job and went home, there was no one to finish my treatment.' Emphasize care discontinuity due to fractured regional systems and deportation.",
+        "archetype": "diplomatic_strategist",
+        "points": 5
+      },
+      {
+        "letter": "D",
+        "description": "Nurse\u2019s report of screened men and case counts: 'We screened 124 men this week. Fourteen tested positive. Two have started treatment.' Highlight the programmatic efficiency and early impacts of the one-stop service model.",
+        "archetype": "evidence_based_strategist",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_6",
+    "title": "2024 Crossroads \u2013 Donor Exit Strategy",
+    "narrative": "Lusaka, Zambia \u2013 June 2024\n\n You’re seated in a hotel conference room with high ceilings and bottled water from six countries. The SADC Secretariat has convened a donor transition meeting, now that the Global Fund and World Bank have confirmed their exit by the end of the fiscal year.\n\nFor over a decade, the TB in the Mining Sector (TIMS) initiative was powered by international financing:\n- $30 million flowed into regional coordination, mobile clinics, data platforms, and legal aid.\n- Over 500,000 miners and ex-miners were screened.\n- 15 one-stop service centers now operate across 6 countries — but none are fully absorbed into national budgets.\n\nThe Director of Planning from Mozambique flips through your impact report and frowns.\n\n“This shows it worked. So why does it feel like the project will vanish the moment the grants end?”\n\nYou look around. The donors are packing up. Ministries are cash-strapped. The mining industry is posting record profits but offering little. And the miners? Most don’t know the project ever existed. They just know when the van doesn’t show up.\n\nThe facilitator turns to you:\n\n“We need a realistic sustainability strategy — one that keeps the lights on and doesn’t depend on miracles.",
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Absorb services into national TB programs using funding from the country ministries of health. Ensure some integration of surveillance and referral systems.",
+        "archetype": "systems_architect",
+        "points": 10
+      },
+      {
+        "letter": "B",
+        "description": "Create a mining industry compensation fund financed from large international mining companies and owners of artisinal mining companies.",
+        "archetype": "equity_negotiator",
+        "points": 10
+      },
+      {
+        "letter": "C",
+        "description": "Scale a peer-led outreach model using ex-miners into communities of miners and former miners.",
+        "archetype": "public_health_communicator",
+        "points": 10
+      },
+      {
+        "letter": "D",
+        "description": "Launch a regional co-financing compact with pro-rated commitments from countries with the largest mining sectors and migrant workers.",
+        "archetype": "diplomatic_strategist",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_7",
+    "title": "The Artisanal Frontier",
+    "narrative": "Lilongwe, Malawi \u2013 February 2025\n\nA red folder is slid across the conference table. Inside is a leaked report from an NGO operating in the informal mining belts of southern Malawi.\n\n“TB prevalence among small-scale gold miners in Makanjira is estimated at 2,700 per 100,000,” the report says.\n“None are linked to care. Most do not know what TB is.”\n\nThe images are stark: children sifting through mercury-laced dust, men sleeping 10 to a room, workers coughing up blood while sharing hand-rolled cigarettes in mine shafts.\n\nThe problem isn’t new. Artisanal and small-scale mining (ASM) has surged across the region — from Mozambique to Tanzania to Zambia — as global demand for gold, cobalt, and rare earth minerals grows. These miners are unregistered, uninsured, and untouched by the TIMS program.\n\nAn advisor from the SADC Health Desk says flatly:\n\n“We can’t keep pretending they don’t exist. But we also can’t bankrupt our TB programs reaching for them.”\n\nYou’ve been asked to prepare a briefing memo for the SADC Council. What’s your recommendation?",
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Partner with NGOs for pilot outreach in ASM sites. Understand how the NGOs have managed partnerships with the ASM operations.",
+        "archetype": "equity_negotiator",
+        "points": 5
+      },
+      {
+        "letter": "B",
+        "description": "Advocate for legal and policy inclusion of ASM workers at the national-level. Make sure they have equal workplace protections and formal sector care access.",
+        "archetype": "systems_architect",
+        "points": 5
+      },
+      {
+        "letter": "C",
+        "description": "Propose new donor funding for a targeted ASM initiative. This can be smaller scale and more targetted in approach to the previous donor-led efforts.",
+        "archetype": "diplomatic_strategist",
+        "points": 5
+      },
+      {
+        "letter": "D",
+        "description": "Delay and focus on existing formal mining programs for which there is more evidence of success and cost-effective treatment.",
+        "archetype": "evidence_based_strategist",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_8",
+    "title": "Final Briefing to Ministers",
+    "narrative": "Gaborone, Botswana \u2013 November 2025\n\nThe room is polished wood and soft lighting — a sharp contrast to the dust and diesel of the past decade. You’re back in Gaborone, where the TIMS Secretariat was once a startup project with four desks and an overworked Excel sheet.\n\nToday, you sit before the SADC Council of Ministers of Health, flanked by country delegations, donor representatives, and former miners invited to witness the final debrief.\n\nThe Ministers are listening — but they are also waiting.\n\nWaiting for you to do what few public health leaders manage:\nTo speak plainly, strategically, and morally — all at once.\nTo say what mattered.\nTo say what comes next.\n\nYou think back on the decisions you made — the tradeoffs, the wins, the risks. You know you didn’t fix everything. But you’ve helped build something stronger than a pilot project. You’ve built precedent. You’ve shown what regional public health leadership can look like.\n\nThe Chair of the Council adjusts her microphone:\n\n'Dr. Sandy, you have five minutes. Tell us what we carry forward.'",
+    "choices": [
+      {
+        "letter": "A",
+        "description": "Emphasize the need for integration across borders and resilient systems with sustainable financing.",
+        "archetype": "systems_architect",
+        "points": 5
+      },
+      {
+        "letter": "B",
+        "description": "Frame it as a moral reckoning and call for justice for miners and informal sector employees that support mining communities who have been ravaged by the epidemic.",
+        "archetype": "equity_negotiator",
+        "points": 5
+      },
+      {
+        "letter": "C",
+        "description": "Celebrate regional governance, collaboration, and solidarity across national borders.",
+        "archetype": "diplomatic_strategist",
+        "points": 5
+      },
+      {
+        "letter": "D",
+        "description": "Lead with narrative to sustain political will among Ministers of Health who can take that argument to their Finance Ministers to maintain funding.",
+        "archetype": "public_health_communicator",
+        "points": 5
+      },
+      {
+        "letter": "E",
+        "description": "Present a data-driven argument about the cost-effectiveness of the programs, the reduction in disability-adjusted life years (DALYs), and the economic benefit to the mining companies and national economies with healthier workers.",
+        "archetype": "evidence_based_strategist",
+        "points": 5
+      }
+    ]
+  }
+]
