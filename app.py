@@ -83,8 +83,12 @@ def scene(scene_id):
 
 @app.route('/results')
 def results():
-    scores = session.get('scores', {})
+    scores = session.get('scores')
+    if not scores:
+        return redirect(url_for('index'))  # or show a custom error page
+
     dominant = max(scores, key=scores.get)
+
     profile = archetype_profiles[dominant]
     return render_template('results.html', profile=profile, scores=scores)
 
