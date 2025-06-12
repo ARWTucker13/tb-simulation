@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for, session
-from flask_session import Session
 import json
 from datetime import datetime
 import os
@@ -7,11 +6,6 @@ import os
 app = Flask(__name__)
 
 app.secret_key = os.environ.get('SECRET_KEY', 'fallback-insecure-key')
-# Configure server-side session storage
-app.config['SESSION_TYPE'] = 'null'
-app.config['SESSION_PERMANENT'] = False
-app.config['SESSION_USE_SIGNER'] = True
-app.config['SESSION_FILE_DIR'] = './flask_session_data'  # Folder where session files are stored
 Session(app)
 
 
