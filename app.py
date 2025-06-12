@@ -1,9 +1,16 @@
 from flask import Flask, render_template, request, redirect, url_for, session
+from flask_session import Session
 import json
 from datetime import datetime
 import os
 
 app = Flask(__name__)
+# Configure server-side session storage
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_PERMANENT'] = False
+app.config['SESSION_USE_SIGNER'] = True
+app.config['SESSION_FILE_DIR'] = './flask_session_data'  # Folder where session files are stored
+Session(app)
 app.secret_key = 'your-secret-key'
 
 # Load scenes
