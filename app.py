@@ -11,7 +11,8 @@ app.config['SESSION_PERMANENT'] = False
 app.config['SESSION_USE_SIGNER'] = True
 app.config['SESSION_FILE_DIR'] = './flask_session_data'  # Folder where session files are stored
 Session(app)
-app.secret_key = 'your-secret-key'
+app.secret_key = os.environ.get('SECRET_KEY', 'fallback-insecure-key')
+
 
 # Load scenes
 with open('TB_Mining_Simulation_FullNarratives.json') as f:
