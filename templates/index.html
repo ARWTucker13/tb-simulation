@@ -6,10 +6,19 @@
   <img src="{{ url_for('static', filename='images/780x439-mineworkers.jpg') }}" style="width:100%; max-width:780px;" alt="Mineworkers">
 </head>
 <body>
+  <div id="iframe-warning" style="display:none; color: red; font-weight: bold; margin-bottom: 1em;">
+    This simulation may not work correctly when embedded in Canvas or other platforms due to browser privacy restrictions on cookies. <br>
+    <button onclick="window.open(window.location.href, '_blank');">Open Simulation in a New Tab</button>
+    <br>For the best experience, please open this simulation in a new browser tab.
+  </div>
   <div id="incognito-warning" style="display:none; color: red; font-weight: bold; margin-bottom: 1em;">
     Warning: You are using Private/Incognito mode. Progress may not be saved. For the best experience, use a regular browser window.
   </div>
   <script>
+    // Detect if running inside an iframe (embedded)
+    if (window.self !== window.top) {
+      document.getElementById('iframe-warning').style.display = 'block';
+    }
     // Incognito/private mode detection (works for most browsers)
     (function() {
       var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
