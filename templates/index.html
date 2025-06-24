@@ -6,13 +6,34 @@
   <img src="{{ url_for('static', filename='images/780x439-mineworkers.jpg') }}" style="width:100%; max-width:780px;" alt="Mineworkers">
 </head>
 <body>
+  <div id="incognito-warning" style="display:none; color: red; font-weight: bold; margin-bottom: 1em;">
+    Warning: You are using Private/Incognito mode. Progress may not be saved. For the best experience, use a regular browser window.
+  </div>
+  <script>
+    // Incognito/private mode detection (works for most browsers)
+    (function() {
+      var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
+      if (!fs) {
+        // Safari (detect quota error)
+        try {
+          window.openDatabase(null, null, null, null);
+        } catch (e) {
+          document.getElementById('incognito-warning').style.display = 'block';
+        }
+      } else {
+        fs(window.TEMPORARY, 100, function() {}, function() {
+          document.getElementById('incognito-warning').style.display = 'block';
+        });
+      }
+    })();
+  </script>
   <div class="container">
     <h1>🦠 TB in the Mining Sector: Regional Simulation</h1>
 
     <img src="{{ url_for('static', filename='images/780x439-mineworkers.jpg') }}" style="width:100%; max-width:780px;" alt="Mineworkers">
 
     <p>
-      Welcome to the <strong>TB in the Mining Sector Simulation</strong>. This simulation is based on a real-world case study of regional efforts to control tuberculosis (TB) in Southern Africa’s mining communities.
+      Welcome to the <strong>TB in the Mining Sector Simulation</strong>. This simulation is based on a real-world case study of regional efforts to control tuberculosis (TB) in Southern Africa's mining communities.
     </p>
 
     <p>
