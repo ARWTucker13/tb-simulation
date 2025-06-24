@@ -2,13 +2,16 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import json
 from datetime import datetime
 import os
+from flask_session import Session
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'fallback-insecure-key')
 app.config.update(
     SESSION_COOKIE_SAMESITE="None",
-    SESSION_COOKIE_SECURE=True
+    SESSION_COOKIE_SECURE=True,
+    SESSION_TYPE="filesystem"
 )
+Session(app)
 
 
 
